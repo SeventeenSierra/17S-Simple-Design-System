@@ -1,0 +1,1997 @@
+{
+  "platform": "nextjs",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "public-files",
+    "publicDir": "../public",
+    "publicUrlPrefix": "/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "3BHMWCYAenCmWb8ThbnzeF",
+      "projectApiToken": "nlhTQnb87JxQZIVUERYJLyNKoAi6WGeD11eEjhdLQHmFPwswK0IHuoLax3UIXa5zo92gqP0tucJF4aoosyyA",
+      "projectName": "Core",
+      "version": ">0.0.0",
+      "cssFilePath": "plasmic/core/plasmic.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "",
+      "splitsProviderFilePath": "",
+      "codeComponents": [
+        {
+          "id": "K54xiwyXsJMV",
+          "name": "PlasmicHead",
+          "displayName": "hostless-plasmic-head",
+          "componentImportPath": "@plasmicapp/react-web"
+        },
+        {
+          "id": "YaFXHoWEz-ig",
+          "name": "Fetcher",
+          "displayName": "plasmic-data-source-fetcher",
+          "componentImportPath": "@plasmicapp/react-web/lib/data-sources"
+        }
+      ],
+      "customFunctions": []
+    },
+    {
+      "projectId": "dNqcW7FYVqnkjtbdVGjyS8",
+      "projectApiToken": "Q3ns8Ji9J6Vjnh8QxmPwE2vfdq8rTiocBfWmu2YXepuEweokDEk6TEXZ4Ut7Z2OW5XWmd3zJqU1UlIsHXg",
+      "projectName": "Semantic",
+      "version": ">0.0.0",
+      "cssFilePath": "plasmic/semantic/plasmic.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "",
+      "splitsProviderFilePath": "",
+      "codeComponents": [
+        {
+          "id": "V2Ce30Y-lPc3",
+          "name": "PlasmicHead",
+          "displayName": "hostless-plasmic-head",
+          "componentImportPath": "@plasmicapp/react-web"
+        },
+        {
+          "id": "6yrkrAYnlc3L",
+          "name": "Fetcher",
+          "displayName": "plasmic-data-source-fetcher",
+          "componentImportPath": "@plasmicapp/react-web/lib/data-sources"
+        }
+      ],
+      "customFunctions": []
+    },
+    {
+      "projectId": "rs6Egi3bpxgrd3P2FjjZpt",
+      "projectApiToken": "A2QcPR5CLytpVldfMDAD6igYvkOjQyLqBdnZ3z61xkA2Wusk9XgSX0ZK2x0LZRA2lx6TF6A6OLTkHGOQ",
+      "projectName": "Typography",
+      "version": ">0.0.0",
+      "cssFilePath": "plasmic/typography/plasmic.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "",
+      "splitsProviderFilePath": "",
+      "codeComponents": [
+        {
+          "id": "_KZzJ4oLoZ10",
+          "name": "PlasmicHead",
+          "displayName": "hostless-plasmic-head",
+          "componentImportPath": "@plasmicapp/react-web"
+        },
+        {
+          "id": "UWLKKUDHL3PZ",
+          "name": "Fetcher",
+          "displayName": "plasmic-data-source-fetcher",
+          "componentImportPath": "@plasmicapp/react-web/lib/data-sources"
+        }
+      ],
+      "customFunctions": []
+    },
+    {
+      "projectId": "4JFyEcvXaxQ6TZ3SJQYzp6",
+      "projectApiToken": "7QvFvGPc7VZqkGKxDvGJBJrOhAW4Rbgu2NpZJnFBZJnJRizpvICPkCBagR5xNK9LeQive9ax4oQiIw2HGsw",
+      "projectName": "Button",
+      "version": ">0.0.0",
+      "cssFilePath": "plasmic/button/plasmic.module.css",
+      "components": [
+        {
+          "id": "3BnfwULcRUyf",
+          "name": "Button",
+          "type": "managed",
+          "projectId": "4JFyEcvXaxQ6TZ3SJQYzp6",
+          "renderModuleFilePath": "plasmic/button/PlasmicButton.tsx",
+          "importSpec": {
+            "modulePath": "Button.tsx"
+          },
+          "cssFilePath": "plasmic/button/PlasmicButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "button"
+        }
+      ],
+      "icons": [
+        {
+          "id": "2TAj_FBTgcH-",
+          "name": "FaChecksvgIcon",
+          "moduleFilePath": "plasmic/button/icons/PlasmicIcon__FaChecksvg.tsx"
+        },
+        {
+          "id": "o-asKjci-D-m",
+          "name": "FaArrowRightsvgIcon",
+          "moduleFilePath": "plasmic/button/icons/PlasmicIcon__FaArrowRightsvg.tsx"
+        }
+      ],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "",
+      "splitsProviderFilePath": "",
+      "codeComponents": [
+        {
+          "id": "yhbkMkzyf-qX",
+          "name": "PlasmicHead",
+          "displayName": "hostless-plasmic-head",
+          "componentImportPath": "@plasmicapp/react-web"
+        },
+        {
+          "id": "0B6xMCxN0IXR",
+          "name": "Fetcher",
+          "displayName": "plasmic-data-source-fetcher",
+          "componentImportPath": "@plasmicapp/react-web/lib/data-sources"
+        }
+      ],
+      "customFunctions": []
+    },
+    {
+      "projectId": "87d7TuXZRr3ZmtRaMhbt33",
+      "projectApiToken": "Y5Gcin3GdctjfkTYqQBv4feKDFUWk1TUZPGtDyioxvsYmeDXIiI8p7n8TU1am53uved7mxzO1pSrfJOJoA",
+      "projectName": "Icons",
+      "version": ">0.0.0",
+      "cssFilePath": "plasmic/icons/plasmic.module.css",
+      "components": [],
+      "icons": [
+        {
+          "id": "Zs48GSF_C_YH",
+          "name": "PfIconProcessAutomationsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PfIconProcessAutomationsvg.tsx"
+        },
+        {
+          "id": "FD3ZNqJs3P9M",
+          "name": "PfIconDomainsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PfIconDomainsvg.tsx"
+        },
+        {
+          "id": "bSS8s3bCiIXN",
+          "name": "PfIconOffsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PfIconOffsvg.tsx"
+        },
+        {
+          "id": "gH2tGPn-NXLP",
+          "name": "FaLongArrowAltUpsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaLongArrowAltUpsvg.tsx"
+        },
+        {
+          "id": "UVx9tKpnIxXP",
+          "name": "FaUsersvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaUsersvg.tsx"
+        },
+        {
+          "id": "oVuYXQEJgU3H",
+          "name": "FaCodeBranchsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaCodeBranchsvg.tsx"
+        },
+        {
+          "id": "3TY0yEpMM8y3",
+          "name": "PfIconReplicatorsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PfIconReplicatorsvg.tsx"
+        },
+        {
+          "id": "hURg7u3vp_18",
+          "name": "FaHomesvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaHomesvg.tsx"
+        },
+        {
+          "id": "zOVFXiTeCdGT",
+          "name": "PfIconServerGroupsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PfIconServerGroupsvg.tsx"
+        },
+        {
+          "id": "iqyfeWYFPBIv",
+          "name": "PfIconMulticlustersvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PfIconMulticlustersvg.tsx"
+        },
+        {
+          "id": "uqhxGvgix8I7",
+          "name": "FaInfoCirclesvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaInfoCirclesvg.tsx"
+        },
+        {
+          "id": "_xz7DgC4li9U",
+          "name": "PfIconDegradedsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PfIconDegradedsvg.tsx"
+        },
+        {
+          "id": "-Q4gF4nDH3u_",
+          "name": "FaClocksvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaClocksvg.tsx"
+        },
+        {
+          "id": "RlptmneitzyX",
+          "name": "PfIconResourcesAlmostFullsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PfIconResourcesAlmostFullsvg.tsx"
+        },
+        {
+          "id": "0Bpn2m-KJbPo",
+          "name": "FaShareSquaresvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaShareSquaresvg.tsx"
+        },
+        {
+          "id": "zPsuhTp-27F9",
+          "name": "PfIconBuildsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PfIconBuildsvg.tsx"
+        },
+        {
+          "id": "b2uwvyC5rheR",
+          "name": "FaGithubsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaGithubsvg.tsx"
+        },
+        {
+          "id": "YIHzCC0pwA4j",
+          "name": "PfIconDataSourcesvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PfIconDataSourcesvg.tsx"
+        },
+        {
+          "id": "1LsM820HaJ5v",
+          "name": "FaSortAmountDownAltsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaSortAmountDownAltsvg.tsx"
+        },
+        {
+          "id": "xksOmJtrKkUc",
+          "name": "FaLinkedinsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaLinkedinsvg.tsx"
+        },
+        {
+          "id": "-4n5Ys9EoCRz",
+          "name": "FaSearchPlussvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaSearchPlussvg.tsx"
+        },
+        {
+          "id": "vqz1dKoYWgLG",
+          "name": "FaAngleDownsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaAngleDownsvg.tsx"
+        },
+        {
+          "id": "NYZ9g-lrTq9u",
+          "name": "FaGitlabsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaGitlabsvg.tsx"
+        },
+        {
+          "id": "2id2Zkkz5CgG",
+          "name": "FaListsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaListsvg.tsx"
+        },
+        {
+          "id": "BhQ4L63HCONM",
+          "name": "FaDrupalsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaDrupalsvg.tsx"
+        },
+        {
+          "id": "dGwE0v0X1Q4D",
+          "name": "FaWindowssvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaWindowssvg.tsx"
+        },
+        {
+          "id": "3238e6Nn8hiB",
+          "name": "PfIconVolumesvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PfIconVolumesvg.tsx"
+        },
+        {
+          "id": "QqSj-hrwWBtW",
+          "name": "PfIconImportsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PfIconImportsvg.tsx"
+        },
+        {
+          "id": "0u9PD6slIIe3",
+          "name": "PfAnsiblesvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PfAnsiblesvg.tsx"
+        },
+        {
+          "id": "LPOu_vY8axpS",
+          "name": "FaLongArrowAltDownsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaLongArrowAltDownsvg.tsx"
+        },
+        {
+          "id": "Rb-jKTVSmePA",
+          "name": "PfIconPortsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PfIconPortsvg.tsx"
+        },
+        {
+          "id": "ISO_Vdy026-t",
+          "name": "FaCaretDownsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaCaretDownsvg.tsx"
+        },
+        {
+          "id": "F6_q7s0AoJLe",
+          "name": "PfIconEnhancementsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PfIconEnhancementsvg.tsx"
+        },
+        {
+          "id": "Qua1lP8Ze_ZI",
+          "name": "FaJssvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaJssvg.tsx"
+        },
+        {
+          "id": "dVpranhEWi7I",
+          "name": "FaThumbtacksvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaThumbtacksvg.tsx"
+        },
+        {
+          "id": "WkRIrBD_XuPp",
+          "name": "PfIconUnknownsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PfIconUnknownsvg.tsx"
+        },
+        {
+          "id": "wbtWT2zQk23G",
+          "name": "PfIconNetworkRangesvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PfIconNetworkRangesvg.tsx"
+        },
+        {
+          "id": "AgHIebkDOPiq",
+          "name": "FaPausesvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaPausesvg.tsx"
+        },
+        {
+          "id": "cSFF5VoN4wT8",
+          "name": "FaPlusCirclesvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaPlusCirclesvg.tsx"
+        },
+        {
+          "id": "YXdnL1mrkIfM",
+          "name": "FaTimessvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaTimessvg.tsx"
+        },
+        {
+          "id": "KxhZ2EV0WRlz",
+          "name": "FaBansvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaBansvg.tsx"
+        },
+        {
+          "id": "iq0wcLfF09R1",
+          "name": "FaPrintsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaPrintsvg.tsx"
+        },
+        {
+          "id": "64BFMshavmIl",
+          "name": "PfIconTopologysvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PfIconTopologysvg.tsx"
+        },
+        {
+          "id": "iq7C6RL3qbbV",
+          "name": "PfIconDisconnectedsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PfIconDisconnectedsvg.tsx"
+        },
+        {
+          "id": "Pv-z-czNZlS4",
+          "name": "PfIconResourcesFullsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PfIconResourcesFullsvg.tsx"
+        },
+        {
+          "id": "ewpkddRbbPKh",
+          "name": "FaSearchsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaSearchsvg.tsx"
+        },
+        {
+          "id": "9_CQ9ggCPS3Y",
+          "name": "FaUserssvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaUserssvg.tsx"
+        },
+        {
+          "id": "lSPx6wxTHLM5",
+          "name": "FaMinussvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaMinussvg.tsx"
+        },
+        {
+          "id": "Fd4ZQ8Cx_KIl",
+          "name": "FaArrowCircleUpsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaArrowCircleUpsvg.tsx"
+        },
+        {
+          "id": "bnE5JY5u1Gz8",
+          "name": "FaKeysvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaKeysvg.tsx"
+        },
+        {
+          "id": "F5oBTKmfJq8s",
+          "name": "PfIconMonitoringsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PfIconMonitoringsvg.tsx"
+        },
+        {
+          "id": "oy3myrnPDQjY",
+          "name": "PfIconTrendUpsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PfIconTrendUpsvg.tsx"
+        },
+        {
+          "id": "fQCZpy6iLlqV",
+          "name": "PfIconServicesvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PfIconServicesvg.tsx"
+        },
+        {
+          "id": "65xmPW51Wmit",
+          "name": "FaExpandArrowsAltsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaExpandArrowsAltsvg.tsx"
+        },
+        {
+          "id": "1v-5C4HnCgeg",
+          "name": "FaTwittersvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaTwittersvg.tsx"
+        },
+        {
+          "id": "rKxVfTJja1Lu",
+          "name": "FaThLargesvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaThLargesvg.tsx"
+        },
+        {
+          "id": "fXUHp8E8Q5ye",
+          "name": "PfIconCloudSecuritysvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PfIconCloudSecuritysvg.tsx"
+        },
+        {
+          "id": "i1kzrlqIU3As",
+          "name": "PfIconIntegrationsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PfIconIntegrationsvg.tsx"
+        },
+        {
+          "id": "QFSn7ICQKbug",
+          "name": "FaTablesvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaTablesvg.tsx"
+        },
+        {
+          "id": "rbui9IzIa17J",
+          "name": "PfIconExportsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PfIconExportsvg.tsx"
+        },
+        {
+          "id": "wUJrvKltYJ9n",
+          "name": "FaQuestionCirclesvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaQuestionCirclesvg.tsx"
+        },
+        {
+          "id": "7zsF_W4x-6v3",
+          "name": "PfIconResourcePoolsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PfIconResourcePoolsvg.tsx"
+        },
+        {
+          "id": "fll1in-OJErh",
+          "name": "PfIconOnRunningsvg2Icon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PfIconOnRunningsvg2.tsx"
+        },
+        {
+          "id": "txC1ZsHradFQ",
+          "name": "PfIconMigrationsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PfIconMigrationsvg.tsx"
+        },
+        {
+          "id": "KP-G2vSCyxEd",
+          "name": "FaLocksvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaLocksvg.tsx"
+        },
+        {
+          "id": "s-Ey4NyP5pDa",
+          "name": "FaTagsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaTagsvg.tsx"
+        },
+        {
+          "id": "6yni2X9rdP5n",
+          "name": "FaLockOpensvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaLockOpensvg.tsx"
+        },
+        {
+          "id": "rhf0XLfVUKje",
+          "name": "FaPauseCirclesvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaPauseCirclesvg.tsx"
+        },
+        {
+          "id": "_E_c24M6s3ys",
+          "name": "FaExpandsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaExpandsvg.tsx"
+        },
+        {
+          "id": "kSqlxpSQ2rQK",
+          "name": "PfIconRegistrysvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PfIconRegistrysvg.tsx"
+        },
+        {
+          "id": "1lANLXkaPeuL",
+          "name": "PfIconBundlesvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PfIconBundlesvg.tsx"
+        },
+        {
+          "id": "hvza41XenQz1",
+          "name": "FaSearchMinussvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaSearchMinussvg.tsx"
+        },
+        {
+          "id": "giHvA7K3Cyvo",
+          "name": "FaTrashsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaTrashsvg.tsx"
+        },
+        {
+          "id": "i60EJaqoE1Nh",
+          "name": "FaAngleDoubleLeftsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaAngleDoubleLeftsvg.tsx"
+        },
+        {
+          "id": "0N9VEJoVpEen",
+          "name": "FaSyncAltsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaSyncAltsvg.tsx"
+        },
+        {
+          "id": "XbPpaRqaVk7J",
+          "name": "PfIconClustersvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PfIconClustersvg.tsx"
+        },
+        {
+          "id": "6jlVidlN86ep",
+          "name": "PfIconEnterprisesvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PfIconEnterprisesvg.tsx"
+        },
+        {
+          "id": "F72neB6hUd7a",
+          "name": "FaMapMarkersvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaMapMarkersvg.tsx"
+        },
+        {
+          "id": "X47ybMcqHBY_",
+          "name": "PfIconCatalogsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PfIconCatalogsvg.tsx"
+        },
+        {
+          "id": "t5C9s4-O_eg5",
+          "name": "FaMicrochipsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaMicrochipsvg.tsx"
+        },
+        {
+          "id": "FhNZ0au7XgfL",
+          "name": "FaPowerOffsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaPowerOffsvg.tsx"
+        },
+        {
+          "id": "PZnRdV-ZPK_1",
+          "name": "FaPlussvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaPlussvg.tsx"
+        },
+        {
+          "id": "JVxfzwRhndyt",
+          "name": "PfIconBuilderImagesvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PfIconBuilderImagesvg.tsx"
+        },
+        {
+          "id": "WAokb5kSjNp-",
+          "name": "FaFlagsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaFlagsvg.tsx"
+        },
+        {
+          "id": "5MtcvyO33oXe",
+          "name": "FaCodesvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaCodesvg.tsx"
+        },
+        {
+          "id": "EPRCCGAWbqYR",
+          "name": "FaCubesvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaCubesvg.tsx"
+        },
+        {
+          "id": "ePE4VBpQTNHO",
+          "name": "PfIconServicessvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PfIconServicessvg.tsx"
+        },
+        {
+          "id": "Q2k3E0JmR2te",
+          "name": "FaExclamationCirclesvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaExclamationCirclesvg.tsx"
+        },
+        {
+          "id": "WmbTgov49nU1",
+          "name": "FaBellsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaBellsvg.tsx"
+        },
+        {
+          "id": "0Md0Q_yR40I5",
+          "name": "FaCogsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaCogsvg.tsx"
+        },
+        {
+          "id": "hfJwGXA10Unp",
+          "name": "PfIconCloudTenantsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PfIconCloudTenantsvg.tsx"
+        },
+        {
+          "id": "HIZ9tPP6sf62",
+          "name": "PfIconConnectedsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PfIconConnectedsvg.tsx"
+        },
+        {
+          "id": "eCzGos2GwuUS",
+          "name": "PfIconTenantsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PfIconTenantsvg.tsx"
+        },
+        {
+          "id": "f2olgIMf738g",
+          "name": "PfIconPendingsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PfIconPendingsvg.tsx"
+        },
+        {
+          "id": "P8IGCFqS_ImU",
+          "name": "FaCubessvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaCubessvg.tsx"
+        },
+        {
+          "id": "UTy1cNnGIo4I",
+          "name": "FaStackOverflowsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaStackOverflowsvg.tsx"
+        },
+        {
+          "id": "nwuFjf98q7vN",
+          "name": "FaRedosvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaRedosvg.tsx"
+        },
+        {
+          "id": "rep_ezOkhP1H",
+          "name": "PfIconMiddlewaresvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PfIconMiddlewaresvg.tsx"
+        },
+        {
+          "id": "4LxXrfx9jfGl",
+          "name": "FaDropboxsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaDropboxsvg.tsx"
+        },
+        {
+          "id": "ylT8txi_Y4ZW",
+          "name": "PfIconRoutesvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PfIconRoutesvg.tsx"
+        },
+        {
+          "id": "x4RGk_YrSjyo",
+          "name": "FaAngleUpsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaAngleUpsvg.tsx"
+        },
+        {
+          "id": "k0ZuDf3TLRWr",
+          "name": "PfIconAddCircleOsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PfIconAddCircleOsvg.tsx"
+        },
+        {
+          "id": "StA_UPQ56GDR",
+          "name": "FaPlaysvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaPlaysvg.tsx"
+        },
+        {
+          "id": "PsVaaKXjNW_W",
+          "name": "FaMemorysvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaMemorysvg.tsx"
+        },
+        {
+          "id": "-M2GH7xJi9PX",
+          "name": "PfIconOpenstacksvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PfIconOpenstacksvg.tsx"
+        },
+        {
+          "id": "iA9hBe2mjgT3",
+          "name": "PfIconFlavorsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PfIconFlavorsvg.tsx"
+        },
+        {
+          "id": "qNrGKEm2HjRk",
+          "name": "PfIconAutomationsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PfIconAutomationsvg.tsx"
+        },
+        {
+          "id": "57P7MA9mQVmc",
+          "name": "FaDownloadsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaDownloadsvg.tsx"
+        },
+        {
+          "id": "sIKxYPWe9jT-",
+          "name": "FaCompresssvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaCompresssvg.tsx"
+        },
+        {
+          "id": "MZwkofKSwUhL",
+          "name": "FaHddsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaHddsvg.tsx"
+        },
+        {
+          "id": "3re2_rGFQO4w",
+          "name": "FaCompressArrowsAltsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaCompressArrowsAltsvg.tsx"
+        },
+        {
+          "id": "3YzMLZZCNJTX",
+          "name": "PfIconVcentersvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PfIconVcentersvg.tsx"
+        },
+        {
+          "id": "-0fzLU41JuWU",
+          "name": "FaEllipsisVsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaEllipsisVsvg.tsx"
+        },
+        {
+          "id": "qltuXp5__VjB",
+          "name": "FaThsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaThsvg.tsx"
+        },
+        {
+          "id": "-Tryllw9AsjP",
+          "name": "PfIconSatellitesvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PfIconSatellitesvg.tsx"
+        },
+        {
+          "id": "0LB9TG28jwYf",
+          "name": "PfIconNetworksvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PfIconNetworksvg.tsx"
+        },
+        {
+          "id": "lRiYaTftjF3C",
+          "name": "PfIconRepositorysvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PfIconRepositorysvg.tsx"
+        },
+        {
+          "id": "SxJE9hxn7WJv",
+          "name": "FaPencilAltsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaPencilAltsvg.tsx"
+        },
+        {
+          "id": "-UH2fkOmwBIZ",
+          "name": "PfIconAsleepsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PfIconAsleepsvg.tsx"
+        },
+        {
+          "id": "SAQov_5PUtHw",
+          "name": "FaExternalLinkAltsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaExternalLinkAltsvg.tsx"
+        },
+        {
+          "id": "jBD4snIRkVvs",
+          "name": "PfIconRegionssvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PfIconRegionssvg.tsx"
+        },
+        {
+          "id": "0ji8kkpc0bva",
+          "name": "FaChecksvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaChecksvg.tsx"
+        },
+        {
+          "id": "Ds8qAoAjwLdH",
+          "name": "FaTimesCirclesvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaTimesCirclesvg.tsx"
+        },
+        {
+          "id": "pxQaAi_shUmK",
+          "name": "FaAngleDoubleRightsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaAngleDoubleRightsvg.tsx"
+        },
+        {
+          "id": "4bISVy5b2XMa",
+          "name": "FaMinusCirclesvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaMinusCirclesvg.tsx"
+        },
+        {
+          "id": "LvNQdeVAbcD4",
+          "name": "PfIconTrendDownsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PfIconTrendDownsvg.tsx"
+        },
+        {
+          "id": "vcDnK9enMesJ",
+          "name": "FaSortAmountDownsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaSortAmountDownsvg.tsx"
+        },
+        {
+          "id": "9N1UFXGmgLAc",
+          "name": "FaGripVerticalsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaGripVerticalsvg.tsx"
+        },
+        {
+          "id": "laMKK4I5P9un",
+          "name": "FaArrowRightsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaArrowRightsvg.tsx"
+        },
+        {
+          "id": "s9d6mUzAghPR",
+          "name": "FaAngleLeftsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaAngleLeftsvg.tsx"
+        },
+        {
+          "id": "cfhYCkkSd0QI",
+          "name": "FaBugsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaBugsvg.tsx"
+        },
+        {
+          "id": "1_KewM1UMsm1",
+          "name": "FaFacebookSquaresvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaFacebookSquaresvg.tsx"
+        },
+        {
+          "id": "gJTWYrlrxJ4E",
+          "name": "FaUndosvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaUndosvg.tsx"
+        },
+        {
+          "id": "lI9mMdN72WMM",
+          "name": "FaArrowCircleDownsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaArrowCircleDownsvg.tsx"
+        },
+        {
+          "id": "Mp7XJfe4OuSg",
+          "name": "FaArrowsAltVsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaArrowsAltVsvg.tsx"
+        },
+        {
+          "id": "93T79UKCOWSM",
+          "name": "FaFolderOpensvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaFolderOpensvg.tsx"
+        },
+        {
+          "id": "jS_OSS2uGGnb",
+          "name": "PfIconVirtualMachinesvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PfIconVirtualMachinesvg.tsx"
+        },
+        {
+          "id": "U0bghsimeUmi",
+          "name": "PfIconDataSinksvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PfIconDataSinksvg.tsx"
+        },
+        {
+          "id": "MuE36lpFQSH0",
+          "name": "FaLinuxsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaLinuxsvg.tsx"
+        },
+        {
+          "id": "bqpMrtoH8oLu",
+          "name": "PfIconStorageDomainsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PfIconStorageDomainsvg.tsx"
+        },
+        {
+          "id": "iVuuWnkze7FV",
+          "name": "FaQuestionCircleSolidsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaQuestionCircleSolidsvg.tsx"
+        },
+        {
+          "id": "EwYYrSgLPzzE",
+          "name": "PfIconImagesvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PfIconImagesvg.tsx"
+        },
+        {
+          "id": "PT9LyFv-xV8K",
+          "name": "PfIconSavesvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PfIconSavesvg.tsx"
+        },
+        {
+          "id": "jcr7xrdOvjS3",
+          "name": "PfIconInProgresssvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PfIconInProgresssvg.tsx"
+        },
+        {
+          "id": "sM1DQob13368",
+          "name": "PfIconSecuritysvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PfIconSecuritysvg.tsx"
+        },
+        {
+          "id": "jRQOo2uGs_eP",
+          "name": "FaCalendarAltsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaCalendarAltsvg.tsx"
+        },
+        {
+          "id": "OT6Rk9Q62_vK",
+          "name": "PfIconServiceCatalogsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PfIconServiceCatalogsvg.tsx"
+        },
+        {
+          "id": "PbKN0z2q2cV6",
+          "name": "FaFiltersvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaFiltersvg.tsx"
+        },
+        {
+          "id": "Fkh-0xVDBAxR",
+          "name": "FaExclamationTrianglesvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaExclamationTrianglesvg.tsx"
+        },
+        {
+          "id": "ykk-io8zhKJm",
+          "name": "FaAngleRightsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaAngleRightsvg.tsx"
+        },
+        {
+          "id": "t3a0-cHCigxX",
+          "name": "PfIconDataProcessorsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PfIconDataProcessorsvg.tsx"
+        },
+        {
+          "id": "w91o3RZ1IBJd",
+          "name": "FaBalanceScalesvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaBalanceScalesvg.tsx"
+        },
+        {
+          "id": "aYxcPas6JdCI",
+          "name": "FaCommentssvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaCommentssvg.tsx"
+        },
+        {
+          "id": "FZbuBoyDGJhl",
+          "name": "FaDatabasesvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaDatabasesvg.tsx"
+        },
+        {
+          "id": "IpZvYGSfU2dp",
+          "name": "FaBarssvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaBarssvg.tsx"
+        },
+        {
+          "id": "rS1Pya07v6Ph",
+          "name": "FaSquareRegularsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaSquareRegularsvg.tsx"
+        },
+        {
+          "id": "tIXM01Nd7aha",
+          "name": "FaSquareCheckRegularsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaSquareCheckRegularsvg.tsx"
+        },
+        {
+          "id": "1Eu_Oh-5WwPP",
+          "name": "FaSquareMinusRegularsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaSquareMinusRegularsvg.tsx"
+        },
+        {
+          "id": "6opSobaqTsjN",
+          "name": "FaSquareCheckSolidsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaSquareCheckSolidsvg.tsx"
+        },
+        {
+          "id": "grJVzeLqzgsC",
+          "name": "FaWandMagicSparklesSolidsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaWandMagicSparklesSolidsvg.tsx"
+        },
+        {
+          "id": "fUW923aUnBV_",
+          "name": "FaASolidsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaASolidsvg.tsx"
+        },
+        {
+          "id": "8JML7MvIOAJH",
+          "name": "FaBSolidsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaBSolidsvg.tsx"
+        },
+        {
+          "id": "VwsPq2dCQ9Dq",
+          "name": "FaCSolidsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaCSolidsvg.tsx"
+        },
+        {
+          "id": "NsxSYHuMLBGU",
+          "name": "FaDSolidsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaDSolidsvg.tsx"
+        },
+        {
+          "id": "154OMMoj8kGk",
+          "name": "FaESolidsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaESolidsvg.tsx"
+        },
+        {
+          "id": "La_ejxNTg2yW",
+          "name": "FaFSolidsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaFSolidsvg.tsx"
+        },
+        {
+          "id": "M9VXMC4NeBCW",
+          "name": "FaGSolidsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaGSolidsvg.tsx"
+        },
+        {
+          "id": "iFFbniguRmhs",
+          "name": "FaISolidsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaISolidsvg.tsx"
+        },
+        {
+          "id": "lM0dM0zUjKS6",
+          "name": "FaJSolidsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaJSolidsvg.tsx"
+        },
+        {
+          "id": "mSz0w_3_JFEw",
+          "name": "FaKSolidsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaKSolidsvg.tsx"
+        },
+        {
+          "id": "BbFm8YXLesod",
+          "name": "FaLSolidsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaLSolidsvg.tsx"
+        },
+        {
+          "id": "JttDixS2LL3C",
+          "name": "FaMSolidsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaMSolidsvg.tsx"
+        },
+        {
+          "id": "AU8QXoQSOxBp",
+          "name": "FaNSolidsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaNSolidsvg.tsx"
+        },
+        {
+          "id": "_fqIPNfmR2jy",
+          "name": "FaOSolidsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaOSolidsvg.tsx"
+        },
+        {
+          "id": "U5wXapAUhb7u",
+          "name": "FaPSolidsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaPSolidsvg.tsx"
+        },
+        {
+          "id": "zYjY1XqgRCKE",
+          "name": "FaQSolidsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaQSolidsvg.tsx"
+        },
+        {
+          "id": "R0QD5RMIbh7R",
+          "name": "FaSSolidsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaSSolidsvg.tsx"
+        },
+        {
+          "id": "-l2G6VNOw_-e",
+          "name": "FaTSolidsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaTSolidsvg.tsx"
+        },
+        {
+          "id": "D2Rh0Ft8647z",
+          "name": "FaUSolidsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaUSolidsvg.tsx"
+        },
+        {
+          "id": "XQ60sN9OIBkX",
+          "name": "FaVSolidsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaVSolidsvg.tsx"
+        },
+        {
+          "id": "6VMR-DhbkR1z",
+          "name": "FaWSolidsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaWSolidsvg.tsx"
+        },
+        {
+          "id": "d4gGifLrNhEK",
+          "name": "FaXSolidsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaXSolidsvg.tsx"
+        },
+        {
+          "id": "2UIHs7zIaQ_q",
+          "name": "FaZSolidsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaZSolidsvg.tsx"
+        },
+        {
+          "id": "fzKjpKSODXUk",
+          "name": "FaYSolidsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaYSolidsvg.tsx"
+        },
+        {
+          "id": "HsdtgBh2l3HL",
+          "name": "Fa0SolidsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__Fa0Solidsvg.tsx"
+        },
+        {
+          "id": "NwZzpgwq1BI5",
+          "name": "Fa1SolidsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__Fa1Solidsvg.tsx"
+        },
+        {
+          "id": "snKb03VU7vhr",
+          "name": "Fa2SolidsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__Fa2Solidsvg.tsx"
+        },
+        {
+          "id": "YdHesFNCQRuP",
+          "name": "Fa3SolidsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__Fa3Solidsvg.tsx"
+        },
+        {
+          "id": "5bDEe5uEDBGz",
+          "name": "Fa4SolidsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__Fa4Solidsvg.tsx"
+        },
+        {
+          "id": "NZCXGwzUIzAe",
+          "name": "Fa5SolidsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__Fa5Solidsvg.tsx"
+        },
+        {
+          "id": "OZFwQ_4Bg7bR",
+          "name": "Fa6SolidsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__Fa6Solidsvg.tsx"
+        },
+        {
+          "id": "mymjynsb-ZAw",
+          "name": "Fa7SolidsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__Fa7Solidsvg.tsx"
+        },
+        {
+          "id": "r7NIcnaR6ifT",
+          "name": "Fa8SolidsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__Fa8Solidsvg.tsx"
+        },
+        {
+          "id": "2L5-MqTPObs8",
+          "name": "Fa9SolidsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__Fa9Solidsvg.tsx"
+        },
+        {
+          "id": "At6Z9gePQBty",
+          "name": "FaPuzzlePieceSolidsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaPuzzlePieceSolidsvg.tsx"
+        },
+        {
+          "id": "0dUuEa1BAcKl",
+          "name": "FaBoltLightningSolidsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaBoltLightningSolidsvg.tsx"
+        },
+        {
+          "id": "0Lq1YEsBc_9t",
+          "name": "FaBoltSolidsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaBoltSolidsvg.tsx"
+        },
+        {
+          "id": "4qJvu4wXWYOS",
+          "name": "FaFileZipperRegularsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaFileZipperRegularsvg.tsx"
+        },
+        {
+          "id": "lQJdiDq_ok-3",
+          "name": "FaFileZipperSolidsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaFileZipperSolidsvg.tsx"
+        },
+        {
+          "id": "FLlRHGAJ-d6K",
+          "name": "FaVimeosvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaVimeosvg.tsx"
+        },
+        {
+          "id": "7KT2UktVzfub",
+          "name": "FaQuoteRightSolidsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaQuoteRightSolidsvg.tsx"
+        },
+        {
+          "id": "gro1WNfEGuRV",
+          "name": "FaQuoteLeftSolidsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaQuoteLeftSolidsvg.tsx"
+        },
+        {
+          "id": "6KQ5WdOfvu_g",
+          "name": "FaTrademarkSolidsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaTrademarkSolidsvg.tsx"
+        },
+        {
+          "id": "nNe5T97L8EfN",
+          "name": "FaTwitchsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaTwitchsvg.tsx"
+        },
+        {
+          "id": "n5hhUouOC6Ka",
+          "name": "FaThumbsDownRegularsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaThumbsDownRegularsvg.tsx"
+        },
+        {
+          "id": "OlxkooNrfuCE",
+          "name": "FaThumbsDownSolidsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaThumbsDownSolidsvg.tsx"
+        },
+        {
+          "id": "p4xtbFXECvh-",
+          "name": "FaThumbsUpRegularsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaThumbsUpRegularsvg.tsx"
+        },
+        {
+          "id": "vn4ferVmOsor",
+          "name": "FaThumbsUpSolidsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaThumbsUpSolidsvg.tsx"
+        },
+        {
+          "id": "tYWezkx2Gbrq",
+          "name": "FaSpinnerSolidsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaSpinnerSolidsvg.tsx"
+        },
+        {
+          "id": "7p4lXXHbI4FU",
+          "name": "FaShopSolidsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaShopSolidsvg.tsx"
+        },
+        {
+          "id": "vJnhFf2dKJiS",
+          "name": "FaSlidersSolidsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaSlidersSolidsvg.tsx"
+        },
+        {
+          "id": "yz7WRnWVapYb",
+          "name": "FaSlacksvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaSlacksvg.tsx"
+        },
+        {
+          "id": "jbQpMhdmsQwV",
+          "name": "FaStarRegularsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaStarRegularsvg.tsx"
+        },
+        {
+          "id": "XcqCOZSHin3h",
+          "name": "FaStarSolidsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaStarSolidsvg.tsx"
+        },
+        {
+          "id": "dI2wcF2SZGEh",
+          "name": "FaRedditsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaRedditsvg.tsx"
+        },
+        {
+          "id": "iiHtddPcku-w",
+          "name": "FaRightLeftSolidsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaRightLeftSolidsvg.tsx"
+        },
+        {
+          "id": "PsPS-i5jYo4T",
+          "name": "FaRotateSolidsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaRotateSolidsvg.tsx"
+        },
+        {
+          "id": "0jrgNr1d6uuL",
+          "name": "FaRssSolidsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaRssSolidsvg.tsx"
+        },
+        {
+          "id": "Jl9zyJXEoqbt",
+          "name": "FaReplySolidsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaReplySolidsvg.tsx"
+        },
+        {
+          "id": "F4UaCBaXYY-j",
+          "name": "FaRegisteredSolidsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaRegisteredSolidsvg.tsx"
+        },
+        {
+          "id": "S7UEsYI1WK6p",
+          "name": "FaRegisteredRegularsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaRegisteredRegularsvg.tsx"
+        },
+        {
+          "id": "hJSRln_Xi54b",
+          "name": "FaReactsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaReactsvg.tsx"
+        },
+        {
+          "id": "nwetRjQUbV_v",
+          "name": "FaMoneyCheckDollarSolidsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaMoneyCheckDollarSolidsvg.tsx"
+        },
+        {
+          "id": "VN2Asz9DUqoq",
+          "name": "FaSackDollarSolidsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaSackDollarSolidsvg.tsx"
+        },
+        {
+          "id": "Gsd-RDpoD2ux",
+          "name": "FaDollarSignSolidsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaDollarSignSolidsvg.tsx"
+        },
+        {
+          "id": "fL21p6yTdt2V",
+          "name": "FaCircleCheckRegularsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaCircleCheckRegularsvg.tsx"
+        },
+        {
+          "id": "2wvYJb7FD0Ac",
+          "name": "FaCircleCheckSolidsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaCircleCheckSolidsvg.tsx"
+        },
+        {
+          "id": "0CSWU2ac5-cM",
+          "name": "FaSketchsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaSketchsvg.tsx"
+        },
+        {
+          "id": "LcLux_mVOlH1",
+          "name": "FaSteamsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaSteamsvg.tsx"
+        },
+        {
+          "id": "mxgLRbsYrVNO",
+          "name": "FaSteamSymbolsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaSteamSymbolsvg.tsx"
+        },
+        {
+          "id": "5vDzmH4Rsd0d",
+          "name": "FaThreadssvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaThreadssvg.tsx"
+        },
+        {
+          "id": "RgAkPFjt85Ap",
+          "name": "FaTumblrsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaTumblrsvg.tsx"
+        },
+        {
+          "id": "iWsAjdz2LAIa",
+          "name": "FaUnsplashsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaUnsplashsvg.tsx"
+        },
+        {
+          "id": "q05Cp63s8KxQ",
+          "name": "FaMeetupsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaMeetupsvg.tsx"
+        },
+        {
+          "id": "vkO9hnVBgi1x",
+          "name": "FaSkypesvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaSkypesvg.tsx"
+        },
+        {
+          "id": "7GfUHQqxvQ-_",
+          "name": "FaDiscoursesvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaDiscoursesvg.tsx"
+        },
+        {
+          "id": "yiJuGh7Dxc53",
+          "name": "FaGoodreadsGsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaGoodreadsGsvg.tsx"
+        },
+        {
+          "id": "cfXyXetxh-x9",
+          "name": "FaSoundcloudsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaSoundcloudsvg.tsx"
+        },
+        {
+          "id": "pW0g3NxZ_OIb",
+          "name": "FaTelegramsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaTelegramsvg.tsx"
+        },
+        {
+          "id": "XHOVO-_M261l",
+          "name": "FaBehancesvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaBehancesvg.tsx"
+        },
+        {
+          "id": "zMrp2HtQH7NX",
+          "name": "FaMediumsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaMediumsvg.tsx"
+        },
+        {
+          "id": "kdtgCzWCnKs9",
+          "name": "FaWordpresssvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaWordpresssvg.tsx"
+        },
+        {
+          "id": "HXX6BpOxvMhu",
+          "name": "FaFigmasvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaFigmasvg.tsx"
+        },
+        {
+          "id": "zEV5wgj5J3aO",
+          "name": "FaDiscordsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaDiscordsvg.tsx"
+        },
+        {
+          "id": "tiBLnD3y0o0a",
+          "name": "FaTiktoksvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaTiktoksvg.tsx"
+        },
+        {
+          "id": "dj51vN9ZrMjf",
+          "name": "FaSquareWhatsappsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaSquareWhatsappsvg.tsx"
+        },
+        {
+          "id": "zCv7SZ5Q7tx1",
+          "name": "FaWhatsappsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaWhatsappsvg.tsx"
+        },
+        {
+          "id": "tySyQPYr8k_u",
+          "name": "FaSquareSnapchatsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaSquareSnapchatsvg.tsx"
+        },
+        {
+          "id": "EOWSs2CBGRvW",
+          "name": "FaSnapchatsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaSnapchatsvg.tsx"
+        },
+        {
+          "id": "Fo00CpctSxxe",
+          "name": "FaSquareYoutubesvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaSquareYoutubesvg.tsx"
+        },
+        {
+          "id": "DjOYJ_kVL-iH",
+          "name": "FaYoutubesvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaYoutubesvg.tsx"
+        },
+        {
+          "id": "r0aoHNlckERm",
+          "name": "FaSquareRedditsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaSquareRedditsvg.tsx"
+        },
+        {
+          "id": "gIML1dFOsgWW",
+          "name": "FaSquareVimeosvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaSquareVimeosvg.tsx"
+        },
+        {
+          "id": "9ND2ri1MEfdO",
+          "name": "FaVimeoVsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaVimeoVsvg.tsx"
+        },
+        {
+          "id": "yc2Nz5ZOsvwJ",
+          "name": "FaSquareGitlabsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaSquareGitlabsvg.tsx"
+        },
+        {
+          "id": "6x3op9mHhZx7",
+          "name": "FaCodeCommitSolidsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaCodeCommitSolidsvg.tsx"
+        },
+        {
+          "id": "R2d62e-RhIXK",
+          "name": "FaCodeForkSolidsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaCodeForkSolidsvg.tsx"
+        },
+        {
+          "id": "uqjogCwbqeDz",
+          "name": "FaCodeMergeSolidsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaCodeMergeSolidsvg.tsx"
+        },
+        {
+          "id": "5wPGi_C4srk7",
+          "name": "FaCodePullRequestSolidsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaCodePullRequestSolidsvg.tsx"
+        },
+        {
+          "id": "axijcGub0Sgx",
+          "name": "FaCodeBranchSolidsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaCodeBranchSolidsvg.tsx"
+        },
+        {
+          "id": "W9WbLWUci7RU",
+          "name": "FaCodeCompareSolidsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaCodeCompareSolidsvg.tsx"
+        },
+        {
+          "id": "551yoAVogRsh",
+          "name": "FaSquareGithubsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaSquareGithubsvg.tsx"
+        },
+        {
+          "id": "6U00fkG6Br2H",
+          "name": "FaSquareFacebooksvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaSquareFacebooksvg.tsx"
+        },
+        {
+          "id": "NhXUYd0iC4aB",
+          "name": "FaFacebookFsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaFacebookFsvg.tsx"
+        },
+        {
+          "id": "--GtK5pXE3K6",
+          "name": "FaFacebookMessengersvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaFacebookMessengersvg.tsx"
+        },
+        {
+          "id": "BXc0YsI3CI8P",
+          "name": "FaFacebooksvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaFacebooksvg.tsx"
+        },
+        {
+          "id": "ZiYbMDU4NMzf",
+          "name": "FaLinkedinInsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaLinkedinInsvg.tsx"
+        },
+        {
+          "id": "Ef8lzkXYMUxE",
+          "name": "FaHashtagSolidsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaHashtagSolidsvg.tsx"
+        },
+        {
+          "id": "iXA7eV5rgWL5",
+          "name": "FaSquareXTwittersvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaSquareXTwittersvg.tsx"
+        },
+        {
+          "id": "uDIQJ2lBypEr",
+          "name": "FaXTwittersvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaXTwittersvg.tsx"
+        },
+        {
+          "id": "D_paw-2XGBfp",
+          "name": "FaSquareTwittersvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaSquareTwittersvg.tsx"
+        },
+        {
+          "id": "s43nzryYlCBv",
+          "name": "FaLocationPinSolidsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaLocationPinSolidsvg.tsx"
+        },
+        {
+          "id": "66JRNAi56Lhl",
+          "name": "FaLocationDotSolidsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaLocationDotSolidsvg.tsx"
+        },
+        {
+          "id": "Y4Cvnrrhkqor",
+          "name": "FaSquarePinterestsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaSquarePinterestsvg.tsx"
+        },
+        {
+          "id": "55wrSFTh1JYz",
+          "name": "FaSquareInstagramsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaSquareInstagramsvg.tsx"
+        },
+        {
+          "id": "IBYSIM1F9Mos",
+          "name": "FaInstagramsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaInstagramsvg.tsx"
+        },
+        {
+          "id": "DKGUHR6h2p-a",
+          "name": "FaShopifysvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaShopifysvg.tsx"
+        },
+        {
+          "id": "sWWTZ9cPZ_EB",
+          "name": "FaMastodonsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaMastodonsvg.tsx"
+        },
+        {
+          "id": "1Ul1YaXpHKqC",
+          "name": "FaSquareLastfmsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaSquareLastfmsvg.tsx"
+        },
+        {
+          "id": "fzmOT8tniQAO",
+          "name": "FaLastfmsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaLastfmsvg.tsx"
+        },
+        {
+          "id": "6JJ4jiwo7Zlh",
+          "name": "FaSpotifysvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaSpotifysvg.tsx"
+        },
+        {
+          "id": "_hc58n6oWQkI",
+          "name": "FaSquareDribbblesvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaSquareDribbblesvg.tsx"
+        },
+        {
+          "id": "dUhr2oVT0t1G",
+          "name": "FaDribbblesvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaDribbblesvg.tsx"
+        },
+        {
+          "id": "F1A_b72sCjVw",
+          "name": "FaEnvelopeRegularsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaEnvelopeRegularsvg.tsx"
+        },
+        {
+          "id": "T8iWHfwbRUQU",
+          "name": "FaEnvelopeSolidsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaEnvelopeSolidsvg.tsx"
+        },
+        {
+          "id": "OT1AZDkpNqHC",
+          "name": "FaEmailRegularsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaEmailRegularsvg.tsx"
+        },
+        {
+          "id": "yLJ1mIlhoyVg",
+          "name": "FaEmailSolidsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaEmailSolidsvg.tsx"
+        },
+        {
+          "id": "jBVs_G3wODXA",
+          "name": "PeLeftCarrotsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PeLeftCarrotsvg.tsx"
+        },
+        {
+          "id": "LFgLdfYvBC13",
+          "name": "PeRightCarrotsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PeRightCarrotsvg.tsx"
+        },
+        {
+          "id": "XF7HvFO1PqOI",
+          "name": "PeApplesvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PeApplesvg.tsx"
+        },
+        {
+          "id": "iAgtF1lUynm5",
+          "name": "PeGooglesvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PeGooglesvg.tsx"
+        },
+        {
+          "id": "nC59-N2yhRLJ",
+          "name": "PeFacebooksvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PeFacebooksvg.tsx"
+        },
+        {
+          "id": "_kjg912FAlVP",
+          "name": "FaHSolidsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaHSolidsvg.tsx"
+        },
+        {
+          "id": "zCAZ0IkPCB7n",
+          "name": "FaRSolidsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__FaRSolidsvg.tsx"
+        },
+        {
+          "id": "hs0Slb7KwDeb",
+          "name": "PeDeleteLeftsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PeDeleteLeftsvg.tsx"
+        },
+        {
+          "id": "iyBosGcwJyea",
+          "name": "PeAngleUpsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PeAngleUpsvg.tsx"
+        },
+        {
+          "id": "TimUUvMPIoVW",
+          "name": "PeAngleDownsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PeAngleDownsvg.tsx"
+        },
+        {
+          "id": "aeoZD_jqjy6F",
+          "name": "PeArrowDownCirclesvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PeArrowDownCirclesvg.tsx"
+        },
+        {
+          "id": "ZYWyX5CIJjYr",
+          "name": "PeArrowCircleLeftsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PeArrowCircleLeftsvg.tsx"
+        },
+        {
+          "id": "nSPBb3Q2BKNB",
+          "name": "PeArrowDownLeftsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PeArrowDownLeftsvg.tsx"
+        },
+        {
+          "id": "56WZiX2-DXs5",
+          "name": "PeArrowCircleLeftsvg2Icon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PeArrowCircleLeftsvg2.tsx"
+        },
+        {
+          "id": "JDt8pyVbTFhS",
+          "name": "PeArrowAngleLeftsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PeArrowAngleLeftsvg.tsx"
+        },
+        {
+          "id": "SZ-KaQ9d7Twm",
+          "name": "PeArrowCircleUpsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PeArrowCircleUpsvg.tsx"
+        },
+        {
+          "id": "ug-xT8KLOiBw",
+          "name": "PeArrowCircleDownsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PeArrowCircleDownsvg.tsx"
+        },
+        {
+          "id": "oDsGe7ltDVJN",
+          "name": "PeArrowHsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PeArrowHsvg.tsx"
+        },
+        {
+          "id": "bcIkL57BjqaC",
+          "name": "PeArrowLeftsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PeArrowLeftsvg.tsx"
+        },
+        {
+          "id": "SWCYn7MqYwgL",
+          "name": "PeArrowLeftArrowRightsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PeArrowLeftArrowRightsvg.tsx"
+        },
+        {
+          "id": "XnVj0K8k0G7r",
+          "name": "PeArrowsAltsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PeArrowsAltsvg.tsx"
+        },
+        {
+          "id": "sYCl_2WtoN0j",
+          "name": "PeArrowRightsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PeArrowRightsvg.tsx"
+        },
+        {
+          "id": "BXlBEfdK0YAe",
+          "name": "PeArrowVsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PeArrowVsvg.tsx"
+        },
+        {
+          "id": "kCYYxosi8oEa",
+          "name": "PeArrowUpLeftsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PeArrowUpLeftsvg.tsx"
+        },
+        {
+          "id": "AtEMDlMj3S4y",
+          "name": "PeArrowUpRightsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PeArrowUpRightsvg.tsx"
+        },
+        {
+          "id": "qJTRLfjmaYAg",
+          "name": "PeAtsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PeAtsvg.tsx"
+        },
+        {
+          "id": "5KV777Urh3ex",
+          "name": "PeArrowUpsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PeArrowUpsvg.tsx"
+        },
+        {
+          "id": "TKVNhggIQJLq",
+          "name": "PeBansvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PeBansvg.tsx"
+        },
+        {
+          "id": "zl_HAAeNRE_5",
+          "name": "PeBackwardsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PeBackwardsvg.tsx"
+        },
+        {
+          "id": "X2tNBCtnuhFr",
+          "name": "PeBarssvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PeBarssvg.tsx"
+        },
+        {
+          "id": "Y-NyAZbNPNWy",
+          "name": "PeBellsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PeBellsvg.tsx"
+        },
+        {
+          "id": "CqI5g_JZB-sG",
+          "name": "PeBitcoinsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PeBitcoinsvg.tsx"
+        },
+        {
+          "id": "zW4uSkgpWFBx",
+          "name": "PeBooksvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PeBooksvg.tsx"
+        },
+        {
+          "id": "H28d7W9B6Qwv",
+          "name": "PeBookmarksvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PeBookmarksvg.tsx"
+        },
+        {
+          "id": "MNwh8WN6bxUw",
+          "name": "PeBoltsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PeBoltsvg.tsx"
+        },
+        {
+          "id": "suxegS7bCehj",
+          "name": "PeBookmarkFillsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PeBookmarkFillsvg.tsx"
+        },
+        {
+          "id": "R1eqPcWXYI8l",
+          "name": "PeBoxsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PeBoxsvg.tsx"
+        },
+        {
+          "id": "vY3NRQyAWNNw",
+          "name": "PeBriefcasesvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PeBriefcasesvg.tsx"
+        },
+        {
+          "id": "QWQKQRkZBJIe",
+          "name": "PeBuildingsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PeBuildingsvg.tsx"
+        },
+        {
+          "id": "NUICKAhrr_1G",
+          "name": "PeCalculatorsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PeCalculatorsvg.tsx"
+        },
+        {
+          "id": "kKXnoeGGdLNs",
+          "name": "PeCalendarsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PeCalendarsvg.tsx"
+        },
+        {
+          "id": "bUSyKa4earb4",
+          "name": "PeCalendarTimessvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PeCalendarTimessvg.tsx"
+        },
+        {
+          "id": "VjTHl9d4zbxD",
+          "name": "PeCalendarMinussvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PeCalendarMinussvg.tsx"
+        },
+        {
+          "id": "kkDiRA9RNFFO",
+          "name": "PeCalendarPlussvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PeCalendarPlussvg.tsx"
+        },
+        {
+          "id": "XxSH0ilf0AW-",
+          "name": "PeCamerasvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PeCamerasvg.tsx"
+        },
+        {
+          "id": "nNJTFHGOOSOK",
+          "name": "PeCarsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PeCarsvg.tsx"
+        },
+        {
+          "id": "OcZV8YwEpoiZ",
+          "name": "PeCaretDownsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PeCaretDownsvg.tsx"
+        },
+        {
+          "id": "ZtXOqaxNPLHg",
+          "name": "PeCaretUpsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PeCaretUpsvg.tsx"
+        },
+        {
+          "id": "iYFNMGDVyYnQ",
+          "name": "PeCaretRightsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PeCaretRightsvg.tsx"
+        },
+        {
+          "id": "_ID-CIdnB_Ji",
+          "name": "PeCaretLeftsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PeCaretLeftsvg.tsx"
+        },
+        {
+          "id": "YsIR0drzQDcW",
+          "name": "PeCartPlussvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PeCartPlussvg.tsx"
+        },
+        {
+          "id": "VE5MrLb9GQBI",
+          "name": "PeChartLinesvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PeChartLinesvg.tsx"
+        },
+        {
+          "id": "5HUYb_T6TEbI",
+          "name": "PeChartBarsvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PeChartBarsvg.tsx"
+        },
+        {
+          "id": "AyHB5gLx4DgQ",
+          "name": "PeChartPiesvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PeChartPiesvg.tsx"
+        },
+        {
+          "id": "v3X5l6ZSC6yZ",
+          "name": "PeChecksvgIcon",
+          "moduleFilePath": "plasmic/icons/icons/PlasmicIcon__PeChecksvg.tsx"
+        }
+      ],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "",
+      "splitsProviderFilePath": "",
+      "codeComponents": [
+        {
+          "id": "Uvq4mzIYd0sw",
+          "name": "PlasmicHead",
+          "displayName": "hostless-plasmic-head",
+          "componentImportPath": "@plasmicapp/react-web"
+        },
+        {
+          "id": "Igmh4ZOki9Oh",
+          "name": "Fetcher",
+          "displayName": "plasmic-data-source-fetcher",
+          "componentImportPath": "@plasmicapp/react-web/lib/data-sources"
+        }
+      ],
+      "customFunctions": []
+    },
+    {
+      "projectId": "fRPK7tiJG7MX8cfQyXHzpH",
+      "projectApiToken": "kXcnOZTKUfwnvbpowU766jQohmN3UTiUavs0p53Ylhcwb926rdxrrHMYs209b0UBpT0bigcI7iuewRuQ",
+      "projectName": "17S Simple Design System",
+      "version": "latest",
+      "cssFilePath": "plasmic/17_s_simple_design_system/plasmic.module.css",
+      "components": [
+        {
+          "id": "uqhleDI6YGAe",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "fRPK7tiJG7MX8cfQyXHzpH",
+          "renderModuleFilePath": "plasmic/17_s_simple_design_system/PlasmicHomepage.tsx",
+          "importSpec": {
+            "modulePath": "../pages/index.tsx"
+          },
+          "cssFilePath": "plasmic/17_s_simple_design_system/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/"
+        }
+      ],
+      "icons": [],
+      "images": [],
+      "indirect": false,
+      "globalContextsFilePath": "",
+      "splitsProviderFilePath": "",
+      "codeComponents": [
+        {
+          "id": "VSKjxCYv4gLM",
+          "name": "PlasmicHead",
+          "displayName": "hostless-plasmic-head",
+          "componentImportPath": "@plasmicapp/react-web"
+        },
+        {
+          "id": "nLaLJHMP4jE9",
+          "name": "Fetcher",
+          "displayName": "plasmic-data-source-fetcher",
+          "componentImportPath": "@plasmicapp/react-web/lib/data-sources"
+        }
+      ],
+      "customFunctions": []
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "OhEUf6Jd0eV8",
+        "name": "Screen",
+        "projectId": "3BHMWCYAenCmWb8ThbnzeF",
+        "contextFilePath": "plasmic/core/PlasmicGlobalVariant__Screen.tsx"
+      },
+      {
+        "id": "yBTVTgAz2Co9",
+        "name": "Mode",
+        "projectId": "3BHMWCYAenCmWb8ThbnzeF",
+        "contextFilePath": "plasmic/core/PlasmicGlobalVariant__Mode.tsx"
+      },
+      {
+        "id": "KU6ZMPleDsvH",
+        "name": "Screen",
+        "projectId": "dNqcW7FYVqnkjtbdVGjyS8",
+        "contextFilePath": "plasmic/semantic/PlasmicGlobalVariant__Screen.tsx"
+      },
+      {
+        "id": "8GoEViyZEQD1",
+        "name": "Screen",
+        "projectId": "rs6Egi3bpxgrd3P2FjjZpt",
+        "contextFilePath": "plasmic/typography/PlasmicGlobalVariant__Screen.tsx"
+      },
+      {
+        "id": "2PazUFwX6PcP",
+        "name": "Screen",
+        "projectId": "4JFyEcvXaxQ6TZ3SJQYzp6",
+        "contextFilePath": "plasmic/button/PlasmicGlobalVariant__Screen.tsx"
+      },
+      {
+        "id": "ZodnWhFNHAMc",
+        "name": "Screen",
+        "projectId": "87d7TuXZRr3ZmtRaMhbt33",
+        "contextFilePath": "plasmic/icons/PlasmicGlobalVariant__Screen.tsx"
+      },
+      {
+        "id": "JpXQxu6I7j9R",
+        "name": "Screen",
+        "projectId": "fRPK7tiJG7MX8cfQyXHzpH",
+        "contextFilePath": "plasmic/17_s_simple_design_system/PlasmicGlobalVariant__Screen.tsx"
+      }
+    ]
+  },
+  "wrapPagesWithGlobalContexts": true,
+  "nextjsConfig": {
+    "pagesDir": "../pages"
+  },
+  "cliVersion": "0.1.330",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.330/dist/plasmic.schema.json"
+}
